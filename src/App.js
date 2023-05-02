@@ -28,7 +28,7 @@ function App() {
       {isLoading ? (
         <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
       ) : (
-        <div className="flex flex-wrap gap-12 justify-center">
+        <div className="flex flex-wrap gap-1 justify-around">
           {images.map((image) => (
             <ImageCard key={image.id} image={image} />
           ))}
