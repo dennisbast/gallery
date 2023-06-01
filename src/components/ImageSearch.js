@@ -19,7 +19,7 @@ const ImageSearch = ({ searchText }) => {
               className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight
                     focus:outline-none"
               type="text"
-              placeholder="Search Image Term..."
+              placeholder="Search Images..."
             />
             <button
               className="flex-shrink-0 bg-blue-700 hover:bg-blue-900 border-blue-700 hover:border-blue-900
