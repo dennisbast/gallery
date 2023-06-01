@@ -30,7 +30,7 @@ const ImageCard = ({ image }) => {
           <span
             key={id}
             className="inline-block bg-gray-200 rounded-full px-3 
-        py-1 text-sm font-semibold text-gray-700 mr-2"
+        py-2 text-sm font-semibold text-gray-700 mr-2"
           >
             #{tag}
           </span>
